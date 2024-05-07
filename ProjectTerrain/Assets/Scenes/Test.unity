@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 499075504}
   - component: {fileID: 499075503}
   - component: {fileID: 499075502}
+  - component: {fileID: 499075505}
   m_Layer: 0
   m_Name: Terrain_0_0_36ea031c-e3de-444e-a0f0-70298713b38c
   m_TagString: Untagged
@@ -272,6 +273,19 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!114 &499075505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499075500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62db329d90f4bc4a855ad66b2709962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splatHeights: []
 --- !u!1 &499347378
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,10 +408,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185843751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ca34a6148db2d54493f84f379293f33, type: 3}
+  m_Script: {fileID: 11500000, guid: d62db329d90f4bc4a855ad66b2709962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GroupID: 0
+  splatHeights: []
 --- !u!4 &1185843753
 Transform:
   m_ObjectHideFlags: 0
@@ -741,3 +755,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc20bc1891b1e4a41a2a46ab5eda1caf, type: 3}
+--- !u!1 &2222810994352122213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2222810994452949984, guid: fc20bc1891b1e4a41a2a46ab5eda1caf, type: 3}
+  m_PrefabInstance: {fileID: 2222810994352122212}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2222810994352122214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2222810994352122213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62db329d90f4bc4a855ad66b2709962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splatHeights:
+  - textureIndex: 0
+    startingHeight: 0
